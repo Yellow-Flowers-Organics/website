@@ -1,5 +1,13 @@
 # Yellow Flowers Organics
 
-Public website for Yellow Flowers Organic Farm, Kaman, Bharatpur, Rajasthan.
+Public site for the packer and farm at Kaman, Bharatpur.
 
-The site is bilingual, English and Hindi. It introduces the farm and, later, the household shop and the grower enquiry line. Farm manuals, costs, and engineering drawings stay in the private [farm-library](https://github.com/Yellow-Flowers-Organics/farm-library) repository.
+Open `index.html` in a browser, or from this folder run:
+
+```
+python -m http.server 8765
+```
+
+The pages are English and Hindi. The shop shows the kraft-pack photographs. It does not take payment. Prices are left off because the only price file is an older Shopify export.
+
+The generated “hero image” from the first Google Site is not used. Notes on that folder are in the private farm library, `yforganics.com/README.md`.
